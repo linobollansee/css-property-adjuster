@@ -28,3 +28,27 @@ const fontOptions = [
     "Webdings, sans-serif",
     "Wingdings, sans-serif"
 ];
+
+// Dropdown element for font family
+const fontFamilyDropdown = document.getElementById('fontFamily');
+
+// Function to populate the font family dropdown
+function populateFontDropdown() {
+    // Iterating through each font option in the fontOptions array
+    fontOptions.forEach(fontOption => {
+        // Creating a new option element for the dropdown
+        const optionElement = document.createElement('option');
+
+        // Setting the value attribute of the option to the font option
+        optionElement.value = fontOption;
+
+        // Setting the displayed text content of the option to the font name (extracted from the fontOption)
+        optionElement.textContent = fontOption.split(',')[0];
+
+        // Appending the created option element to the dropdown menu
+        fontFamilyDropdown.appendChild(optionElement);
+    });
+}
+
+// Call the function to populate the font family dropdown
+populateFontDropdown();
