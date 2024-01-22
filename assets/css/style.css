@@ -1,0 +1,40 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Input controls styles */
+#input-controls {
+    text-align: center;
+    user-select: none; /* Disables user selection for better control */
+}
+
+/* Adjustable element styles */
+#adjustableElement {
+    background: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888888;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    height: 100px;
+    margin: 20px;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #888888;
+    transition: all 0.3s ease;
+    width: 200px;
+}
+
+/* CSS code styles */
+#cssCode {
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    user-select: text; /* Allow text selection for the #cssCode element */
+}
