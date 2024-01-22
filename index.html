@@ -4,9 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Property Adjuster</title>
 </head>
 <body>
+    <!-- Main content of the page -->
+    <h1>CSS Property Adjuster</h1>
+
+    <div id="input-controls">
+        <!-- Input controls for adjusting CSS properties -->
+
+        <!-- Width control -->
+        <label for="width">Width:</label>
+        <input type="range" id="width" min="50" max="500" step="1" value="200">
+
+        <!-- Height control -->
+        <label for="height">Height:</label>
+        <input type="range" id="height" min="50" max="300" step="1" value="100">
+
+        <!-- Margin control -->
+        <label for="margin">Margin:</label>
+        <input type="range" id="margin" min="0" max="50" step="1" value="20">
+
+        <!-- Padding control -->
+        <label for="padding">Padding:</label>
+        <input type="range" id="padding" min="0" max="30" step="1" value="10">
+
+        <!-- Border Radius control -->
+        <label for="borderRadius">Border Radius:</label>
+        <input type="range" id="borderRadius" min="0" max="50" step="1" value="10">
+
+        <!-- Box Shadow control -->
+        <label for="boxShadow">Box Shadow:</label>
+        <input type="range" id="boxShadow" min="0" max="10" step="1" value="2">
+
+        <!-- Background Color control -->
+        <label for="background">Background Color:</label>
+        <input type="color" id="background" value="#f0f0f0">
+
+        <!-- Font Family control -->
+        <label for="fontFamily">Font Family:</label>
+        <select id="fontFamily"></select>
+
+        <!-- Text Color control -->
+        <label for="color">Text Color:</label>
+        <input type="color" id="color" value="#333">
+
+        <!-- Font Size control -->
+        <label for="fontSize">Font Size:</label>
+        <input type="range" id="fontSize" min="10" max="50" step="1" value="16">
+
+        <!-- Text Align control -->
+        <label for="textAlign">Text Align:</label>
+        <select id="textAlign">
+            <option value="left">Left</option>
+            <option value="center">Center</option>
+            <option value="right">Right</option>
+        </select>
+
+        <!-- Text Shadow control -->
+        <label for="textShadow">Text Shadow:</label>
+        <input type="range" id="textShadow" min="0" max="5" step="0.1" value="1">
+
+        <!-- Outline control -->
+        <label for="outline">Outline:</label>
+        <input type="range" id="outline" min="0" max="5" step="0.1" value="0">
+
+        <!-- Outline Color control -->
+        <label for="outlineColor">Outline Color:</label>
+        <input type="color" id="outlineColor" value="#000000">
+
+        <!-- Letter Spacing control -->
+        <label for="letterSpacing">Letter Spacing:</label>
+        <input type="range" id="letterSpacing" min="-2" max="5" step="0.1" value="0">
+
+        <!-- Line Height control -->
+        <label for="lineHeight">Line Height:</label>
+        <input type="range" id="lineHeight" min="1" max="2" step="0.1" value="1">
+
+        <!-- Opacity control -->
+        <label for="opacity">Opacity:</label>
+        <input type="range" id="opacity" min="0" max="1" step="0.1" value="1">
+
+        <!-- Text Decoration control -->
+        <label for="textDecoration">Text Decoration:</label>
+        <select id="textDecoration">
+            <option value="none">None</option>
+            <option value="underline">Underline</option>
+            <option value="overline">Overline</option>
+            <option value="line-through">Line Through</option>
+        </select>
+
+        <!-- Font Weight control -->
+        <label for="fontWeight">Font Weight:</label>
+        <select id="fontWeight">
+            <option value="normal">Normal</option>
+            <option value="bold">Bold</option>
+            <option value="bolder">Bolder</option>
+            <option value="lighter">Lighter</option>
+        </select>
+
+        <!-- Border Width control -->
+        <label for="lineWidth">Border Width:</label>
+        <input type="range" id="lineWidth" min="0" max="10" step="1" value="2">
+
+        <!-- Border Style control -->
+        <label for="lineStyle">Border Style:</label>
+        <select id="lineStyle">
+            <option value="none">None</option>
+            <option value="solid">Solid</option>
+            <option value="dashed">Dashed</option>
+            <option value="dotted">Dotted</option>
+            <option value="double">Double</option>
+        </select>
+
+        <!-- Border Color control -->
+        <label for="borderColor">Border Color:</label>
+        <input type="color" id="borderColor" value="#333333">
+
+        <!-- Visibility control -->
+        <label for="visibility">Visibility:</label>
+        <select id="visibility">
+            <option value="visible">Visible</option>
+            <option value="hidden">Hidden</option>
+            <option value="collapse">Collapse</option>
+        </select>
+
+        <!-- Overflow control -->
+        <label for="overflow">Overflow:</label>
+        <select id="overflow">
+            <option value="visible">Visible</option>
+            <option value="hidden">Hidden</option>
+            <option value="scroll">Scroll</option>
+            <option value="auto">Auto</option>
+        </select>
+
+        <!-- Cursor control -->
+        <label for="cursor">Cursor:</label>
+        <select id="cursor">
+            <option value="auto">Auto</option>
+            <option value="pointer">Pointer</option>
+            <option value="move">Move</option>
+            <option value="text">Text</option>
+        </select>
+    </div>
     
 </body>
 </html>
