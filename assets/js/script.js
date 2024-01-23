@@ -91,3 +91,29 @@ function updateCSS() {
     const visibility = document.getElementById('visibility').value;
     const overflow = document.getElementById('overflow').value;
     const cursor = document.getElementById('cursor').value;
+
+    // Apply styles to the adjustable element
+    adjustableElement.style.width = width;
+    adjustableElement.style.height = height;
+    adjustableElement.style.margin = margin;
+    adjustableElement.style.padding = padding;
+    adjustableElement.style.borderRadius = borderRadius;
+    adjustableElement.style.boxShadow = boxShadow;
+    adjustableElement.style.background = background;
+    adjustableElement.style.fontFamily = fontFamily;
+    adjustableElement.style.color = color;
+    adjustableElement.style.fontSize = fontSize;
+    adjustableElement.style.textAlign = textAlign;
+    adjustableElement.style.textShadow = textShadow;
+    adjustableElement.style.outline = `${outline} solid ${outlineColor}`;
+    adjustableElement.style.letterSpacing = letterSpacing;
+    adjustableElement.style.lineHeight = lineHeight;
+    adjustableElement.style.opacity = opacity;
+    adjustableElement.style.textDecoration = textDecoration;
+    adjustableElement.style.fontWeight = fontWeight;
+    adjustableElement.style.borderWidth = borderWidth;
+    adjustableElement.style.borderStyle = borderStyle;
+    adjustableElement.style.borderColor = borderColor;
+    adjustableElement.style.visibility = visibility;
+    adjustableElement.style.overflow = overflow;
+    adjustableElement.style.cursor = cursor;
