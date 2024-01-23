@@ -117,3 +117,33 @@ function updateCSS() {
     adjustableElement.style.visibility = visibility;
     adjustableElement.style.overflow = overflow;
     adjustableElement.style.cursor = cursor;
+
+    // Generate CSS code string
+    const cssCode = `width: ${width};
+        height: ${height};
+        margin: ${margin};
+        padding: ${padding};
+        border-radius: ${borderRadius};
+        box-shadow: ${boxShadow};
+        background: ${background};
+        font-family: ${fontFamily};
+        color: ${color};
+        font-size: ${fontSize};
+        text-align: ${textAlign};
+        text-shadow: ${textShadow};
+        outline: ${outline} solid ${outlineColor};
+        letter-spacing: ${letterSpacing};
+        line-height: ${lineHeight};
+        opacity: ${opacity};
+        text-decoration: ${textDecoration};
+        font-weight: ${fontWeight};
+        border-width: ${borderWidth};
+        border-style: ${borderStyle};
+        border-color: ${borderColor};
+        visibility: ${visibility};
+        overflow: ${overflow};
+        cursor: ${cursor};`;
+
+    // Display the generated CSS code
+    cssCodeElement.innerText = cssCode;
+}
