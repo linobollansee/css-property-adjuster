@@ -56,3 +56,38 @@ populateFontDropdown();
 // Element to be adjusted and code display area
 const adjustableElement = document.getElementById('adjustableElement');
 const cssCodeElement = document.getElementById('cssCode');
+
+// Function to update CSS based on user input
+function updateCSS() {
+    // Fetch values from input controls
+    const width = document.getElementById('width').value + 'px';
+    const height = document.getElementById('height').value + 'px';
+    const margin = document.getElementById('margin').value + 'px';
+    const padding = document.getElementById('padding').value + 'px';
+    const borderRadius = document.getElementById('borderRadius').value + 'px';
+    const boxShadow = document.getElementById('boxShadow').value + 'px ' +
+        document.getElementById('boxShadow').value + 'px ' +
+        document.getElementById('boxShadow').value + 'px #888888';
+    const background = document.getElementById('background').value;
+    const fontFamily = document.getElementById('fontFamily').value;
+    const color = document.getElementById('color').value;
+    const fontSize = document.getElementById('fontSize').value + 'px';
+    const textAlign = document.getElementById('textAlign').value;
+    const textShadow = document.getElementById('textShadow').value + 'px ' +
+        document.getElementById('textShadow').value + 'px ' +
+        document.getElementById('textShadow').value + 'px #888888';
+
+    const outline = document.getElementById('outline').value + 'px';
+    const outlineColor = document.getElementById('outlineColor').value;
+    const letterSpacing = document.getElementById('letterSpacing').value + 'px';
+    const lineHeight = document.getElementById('lineHeight').value;
+    const opacity = document.getElementById('opacity').value;
+    const textDecoration = document.getElementById('textDecoration').value;
+    const fontWeight = document.getElementById('fontWeight').value;
+
+    const borderWidth = document.getElementById('lineWidth').value + 'px';
+    const borderStyle = document.getElementById('lineStyle').value;
+    const borderColor = document.getElementById('borderColor').value;
+    const visibility = document.getElementById('visibility').value;
+    const overflow = document.getElementById('overflow').value;
+    const cursor = document.getElementById('cursor').value;
