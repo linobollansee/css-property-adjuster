@@ -147,3 +147,14 @@ function updateCSS() {
     // Display the generated CSS code
     cssCodeElement.innerText = cssCode;
 }
+
+// List of input controls to track for changes
+const sliders = document.querySelectorAll('input[type="range"], input[type="color"], select');
+
+// Add event listeners to input controls for real-time updates
+sliders.forEach(slider => {
+    slider.addEventListener('input', updateCSS);
+});
+
+// Initial update to display default styles
+updateCSS();
