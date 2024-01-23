@@ -52,3 +52,7 @@ function populateFontDropdown() {
 
 // Call the function to populate the font family dropdown
 populateFontDropdown();
+
+// Element to be adjusted and code display area
+const adjustableElement = document.getElementById('adjustableElement');
+const cssCodeElement = document.getElementById('cssCode');
