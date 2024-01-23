@@ -158,3 +158,12 @@ sliders.forEach(slider => {
 
 // Initial update to display default styles
 updateCSS();
+
+// Define a function named copyToClipboard
+function copyToClipboard() {
+    // Get the HTML element with the ID 'cssCode'
+    const cssCode = document.getElementById('cssCode');
+
+    // Use the Clipboard API to write the text content of 'cssCode' to the clipboard
+    navigator.clipboard.writeText(cssCode.innerText);
+}
