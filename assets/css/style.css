@@ -6,6 +6,9 @@ body {
 
 /* Input controls styles */
 #input-controls {
+    border: 1px solid #333333;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
     user-select: none; /* Disables user selection for better control */
 }
@@ -13,10 +16,10 @@ body {
 /* Adjustable element styles */
 #adjustableElement {
     background: #f0f0f0;
-    border: 2px solid #333;
+    border: 2px solid #333333;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #888888;
-    color: #333;
+    color: #333333;
     cursor: pointer;
     font-size: 16px;
     height: 100px;
@@ -32,7 +35,7 @@ body {
 
 /* CSS code styles */
 #cssCode {
-    border: 1px solid #333;
+    border: 1px solid #333333;
     margin: 10px;
     padding: 10px;
     text-align: center;
