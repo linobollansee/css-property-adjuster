@@ -42,36 +42,44 @@ body {
     user-select: text; /* Allow text selection for the #cssCode element */
 }
 
+/* Media Queries for Responsive Font Sizes */
+
+/* Set font size to 12px when viewport width is less than 320px */
 @media (max-width: 319px) {
     body {
         font-size: 12px;
     }
 }
 
+/* Set font size to 14px when viewport width is between 320px and 480px */
 @media (min-width: 320px) and (max-width: 480px) {
     body {
         font-size: 14px;
     }
 }
 
+/* Set font size to 16px when viewport width is between 481px and 768px */
 @media (min-width: 481px) and (max-width: 768px) {
     body {
         font-size: 16px;
     }
 }
 
+/* Set font size to 18px when viewport width is between 769px and 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
     body {
         font-size: 18px;
     }
 }
 
+/* Set font size to 20px when viewport width is between 1025px and 1200px */
 @media (min-width: 1025px) and (max-width: 1200px) {
     body {
         font-size: 20px;
     }
 }
 
+/* Set font size to 22px when viewport width is 1201px or more */
 @media (min-width: 1201px) {
     body {
         font-size: 22px;
