@@ -166,4 +166,5 @@ function copyToClipboard() {
 
     // Use the Clipboard API to write the text content of 'cssCode' to the clipboard
     navigator.clipboard.writeText(cssCode.innerText);
+    alert("The CSS code has been copied to the clipboard!");
 }
