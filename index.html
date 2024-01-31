@@ -22,6 +22,7 @@
 <body>
     <!-- Main content of the page -->
     <h1>CSS Property Adjuster</h1>
+
     <!-- Directs the user with a clear set of instructions -->
     <h2>Use the input-controls below to generate your CSS code:</h2>
 
@@ -168,10 +169,14 @@
         <div id="adjustableElement" contenteditable="true">Adjust me!</div>
         <!-- Display the CSS code -->
         <div id="cssCode"></div>
+        <!-- Checkbox for sorting alphabetically -->
+        <label>
+            <input type="checkbox" id="sortCheckbox" onchange="updateCSS()"> Sort Alphabetically
+        </label>
         <!-- Button to trigger the copyToClipboard function -->
         <button onclick="copyToClipboard()">Copy to Clipboard</button>
     </div>
-
+    <!-- Include the JavaScript file -->
     <script src="assets/js/script.js"></script>
 </body>
 
