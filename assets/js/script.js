@@ -1,3 +1,27 @@
+/*
+Credit Acknowledgements:
+
+This JavaScript code benefited significantly from the valuable content
+available in the Code Institute's JavaScript Essentials lessons.
+
+The author used support provided by ChatGPT 3.5, extending beyond the realm of
+JavaScript Essentials. This assistance primarily focused on code modernization,
+incorporating arrow functions, and enhancing clarity by eliminating the function
+keyword. These refinements were specifically applied to the functions
+responsible for dynamically populating the font family dropdown and optimizing
+event listeners for input controls.
+
+Furthermore, the script development was enriched by referencing JavaScript
+resources on w3schools.com, particularly for implementing a Clipboard Copy
+function.
+
+Special thanks to Mentor Dick Vlaanderen for suggesting the utilization of font
+arrays in JavaScript instead of listing them as options directly in the HTML page.
+Additionally, the mentor played a crucial role in brainstorming new feature
+ideas, all of which were successfully implemented by the author. The last feature
+to be added in JavaScript was an alphabetical sorting checkbox. 
+*/
+
 // List of font options
 const fontOptions = [
     "Arial, sans-serif",
