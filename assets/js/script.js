@@ -105,31 +105,64 @@ function updateCSS() {
     adjustableElement.style.overflow = overflow;
     adjustableElement.style.cursor = cursor;
 
+    // Sort alphabetically if the checkbox is checked
+    const sortAlphabetically = document.getElementById('sortCheckbox').checked;
+
     // Generate CSS code string
-    const cssCode = `width: ${width};
-        height: ${height};
-        margin: ${margin};
-        padding: ${padding};
-        border-radius: ${borderRadius};
-        box-shadow: ${boxShadow};
-        background: ${background};
-        font-family: ${fontFamily};
-        color: ${color};
-        font-size: ${fontSize};
-        text-align: ${textAlign};
-        text-shadow: ${textShadow};
-        outline: ${outline} solid ${outlineColor};
-        letter-spacing: ${letterSpacing};
-        line-height: ${lineHeight};
-        opacity: ${opacity};
-        text-decoration: ${textDecoration};
-        font-weight: ${fontWeight};
-        border-width: ${borderWidth};
-        border-style: ${borderStyle};
-        border-color: ${borderColor};
-        visibility: ${visibility};
-        overflow: ${overflow};
-        cursor: ${cursor};`;
+    let cssCode;
+    if (sortAlphabetically) {
+        cssCode = `background: ${background};
+            border-color: ${borderColor};
+            border-radius: ${borderRadius};
+            border-style: ${borderStyle};
+            border-width: ${borderWidth};
+            box-shadow: ${boxShadow};
+            color: ${color};
+            cursor: ${cursor};
+            font-family: ${fontFamily};
+            font-size: ${fontSize};
+            font-weight: ${fontWeight};
+            height: ${height};
+            letter-spacing: ${letterSpacing};
+            line-height: ${lineHeight};
+            margin: ${margin};
+            opacity: ${opacity};
+            outline: ${outline} solid ${outlineColor};
+            overflow: ${overflow};
+            padding: ${padding};
+            text-align: ${textAlign};
+            text-decoration: ${textDecoration};
+            text-shadow: ${textShadow};
+            visibility: ${visibility};
+            width: ${width};
+        `;
+    } else {
+        cssCode = `width: ${width};
+            height: ${height};
+            margin: ${margin};
+            padding: ${padding};
+            border-radius: ${borderRadius};
+            box-shadow: ${boxShadow};
+            background: ${background};
+            font-family: ${fontFamily};
+            color: ${color};
+            font-size: ${fontSize};
+            text-align: ${textAlign};
+            text-shadow: ${textShadow};
+            outline: ${outline} solid ${outlineColor};
+            letter-spacing: ${letterSpacing};
+            line-height: ${lineHeight};
+            opacity: ${opacity};
+            text-decoration: ${textDecoration};
+            font-weight: ${fontWeight};
+            border-width: ${borderWidth};
+            border-style: ${borderStyle};
+            border-color: ${borderColor};
+            visibility: ${visibility};
+            overflow: ${overflow};
+            cursor: ${cursor};
+        `;
+    }
 
     // Display the generated CSS code
     cssCodeElement.innerText = cssCode;
