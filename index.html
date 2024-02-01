@@ -38,168 +38,187 @@ HTML page.
 </head>
 
 <body>
-    <!-- Main content of the page -->
-    <h1>CSS Property Adjuster</h1>
+    <!-- Begin header -->
+    <header>
+        <!-- Top-level heading -->
+        <h1>CSS Property Adjuster</h1>
 
-    <!-- Directs the user with a clear set of instructions -->
-    <h2>Use the input-controls below to generate your CSS code:</h2>
+        <!-- Directs the user with a clear set of instructions -->
+        <h2>Use the input-controls below to generate your CSS code:</h2>
+    </header>
 
-    <div id="input-controls">
+    <!-- Begin main content -->
+    <main>
         <!-- Input controls for adjusting CSS properties -->
+        <div id="input-controls">
 
-        <!-- Width control -->
-        <label for="width">Width:</label>
-        <input type="range" id="width" min="50" max="500" step="1" value="200">
+            <!-- Width control -->
+            <label for="width">Width:</label>
+            <input type="range" id="width" min="50" max="500" step="1" value="200">
 
-        <!-- Height control -->
-        <label for="height">Height:</label>
-        <input type="range" id="height" min="50" max="300" step="1" value="100">
+            <!-- Height control -->
+            <label for="height">Height:</label>
+            <input type="range" id="height" min="50" max="300" step="1" value="100">
 
-        <!-- Margin control -->
-        <label for="margin">Margin:</label>
-        <input type="range" id="margin" min="0" max="50" step="1" value="20">
+            <!-- Margin control -->
+            <label for="margin">Margin:</label>
+            <input type="range" id="margin" min="0" max="50" step="1" value="20">
 
-        <!-- Padding control -->
-        <label for="padding">Padding:</label>
-        <input type="range" id="padding" min="0" max="30" step="1" value="10">
+            <!-- Padding control -->
+            <label for="padding">Padding:</label>
+            <input type="range" id="padding" min="0" max="30" step="1" value="10">
 
-        <!-- Border Radius control -->
-        <label for="borderRadius">Border Radius:</label>
-        <input type="range" id="borderRadius" min="0" max="50" step="1" value="10">
+            <!-- Border Radius control -->
+            <label for="borderRadius">Border Radius:</label>
+            <input type="range" id="borderRadius" min="0" max="50" step="1" value="10">
 
-        <!-- Box Shadow control -->
-        <label for="boxShadow">Box Shadow:</label>
-        <input type="range" id="boxShadow" min="0" max="10" step="1" value="2">
+            <!-- Box Shadow control -->
+            <label for="boxShadow">Box Shadow:</label>
+            <input type="range" id="boxShadow" min="0" max="10" step="1" value="2">
 
-        <!-- Background Color control -->
-        <label for="background">Background Color:</label>
-        <input type="color" id="background" value="#f0f0f0">
+            <!-- Background Color control -->
+            <label for="background">Background Color:</label>
+            <input type="color" id="background" value="#f0f0f0">
 
-        <!-- Font Family control -->
-        <label for="fontFamily">Font Family:</label>
-        <select id="fontFamily"></select>
+            <!-- Font Family control -->
+            <label for="fontFamily">Font Family:</label>
+            <select id="fontFamily"></select>
 
-        <!-- Text Color control -->
-        <label for="color">Text Color:</label>
-        <input type="color" id="color" value="#333333">
+            <!-- Text Color control -->
+            <label for="color">Text Color:</label>
+            <input type="color" id="color" value="#333333">
 
-        <!-- Font Size control -->
-        <label for="fontSize">Font Size:</label>
-        <input type="range" id="fontSize" min="10" max="50" step="1" value="16">
+            <!-- Font Size control -->
+            <label for="fontSize">Font Size:</label>
+            <input type="range" id="fontSize" min="10" max="50" step="1" value="16">
 
-        <!-- Text Align control -->
-        <label for="textAlign">Text Align:</label>
-        <select id="textAlign">
-            <option value="left">Left</option>
-            <option value="center">Center</option>
-            <option value="right">Right</option>
-        </select>
+            <!-- Text Align control -->
+            <label for="textAlign">Text Align:</label>
+            <select id="textAlign">
+                <option value="left">Left</option>
+                <option value="center">Center</option>
+                <option value="right">Right</option>
+            </select>
 
-        <!-- Text Shadow control -->
-        <label for="textShadow">Text Shadow:</label>
-        <input type="range" id="textShadow" min="0" max="5" step="0.1" value="1">
+            <!-- Text Shadow control -->
+            <label for="textShadow">Text Shadow:</label>
+            <input type="range" id="textShadow" min="0" max="5" step="0.1" value="1">
 
-        <!-- Outline control -->
-        <label for="outline">Outline:</label>
-        <input type="range" id="outline" min="0" max="5" step="0.1" value="0">
+            <!-- Outline control -->
+            <label for="outline">Outline:</label>
+            <input type="range" id="outline" min="0" max="5" step="0.1" value="0">
 
-        <!-- Outline Color control -->
-        <label for="outlineColor">Outline Color:</label>
-        <input type="color" id="outlineColor" value="#000000">
+            <!-- Outline Color control -->
+            <label for="outlineColor">Outline Color:</label>
+            <input type="color" id="outlineColor" value="#000000">
 
-        <!-- Letter Spacing control -->
-        <label for="letterSpacing">Letter Spacing:</label>
-        <input type="range" id="letterSpacing" min="-2" max="5" step="0.1" value="0">
+            <!-- Letter Spacing control -->
+            <label for="letterSpacing">Letter Spacing:</label>
+            <input type="range" id="letterSpacing" min="-2" max="5" step="0.1" value="0">
 
-        <!-- Line Height control -->
-        <label for="lineHeight">Line Height:</label>
-        <input type="range" id="lineHeight" min="1" max="2" step="0.1" value="1">
+            <!-- Line Height control -->
+            <label for="lineHeight">Line Height:</label>
+            <input type="range" id="lineHeight" min="1" max="2" step="0.1" value="1">
 
-        <!-- Opacity control -->
-        <label for="opacity">Opacity:</label>
-        <input type="range" id="opacity" min="0" max="1" step="0.1" value="1">
+            <!-- Opacity control -->
+            <label for="opacity">Opacity:</label>
+            <input type="range" id="opacity" min="0" max="1" step="0.1" value="1">
 
-        <!-- Text Decoration control -->
-        <label for="textDecoration">Text Decoration:</label>
-        <select id="textDecoration">
-            <option value="none">None</option>
-            <option value="underline">Underline</option>
-            <option value="overline">Overline</option>
-            <option value="line-through">Line Through</option>
-        </select>
+            <!-- Text Decoration control -->
+            <label for="textDecoration">Text Decoration:</label>
+            <select id="textDecoration">
+                <option value="none">None</option>
+                <option value="underline">Underline</option>
+                <option value="overline">Overline</option>
+                <option value="line-through">Line Through</option>
+            </select>
 
-        <!-- Font Weight control -->
-        <label for="fontWeight">Font Weight:</label>
-        <select id="fontWeight">
-            <option value="normal">Normal</option>
-            <option value="bold">Bold</option>
-            <option value="bolder">Bolder</option>
-            <option value="lighter">Lighter</option>
-        </select>
+            <!-- Font Weight control -->
+            <label for="fontWeight">Font Weight:</label>
+            <select id="fontWeight">
+                <option value="normal">Normal</option>
+                <option value="bold">Bold</option>
+                <option value="bolder">Bolder</option>
+                <option value="lighter">Lighter</option>
+            </select>
 
-        <!-- Border Width control -->
-        <label for="lineWidth">Border Width:</label>
-        <input type="range" id="lineWidth" min="0" max="10" step="1" value="2">
+            <!-- Border Width control -->
+            <label for="lineWidth">Border Width:</label>
+            <input type="range" id="lineWidth" min="0" max="10" step="1" value="2">
 
-        <!-- Border Style control -->
-        <label for="lineStyle">Border Style:</label>
-        <select id="lineStyle">
-            <option value="none">None</option>
-            <option value="solid">Solid</option>
-            <option value="dashed">Dashed</option>
-            <option value="dotted">Dotted</option>
-            <option value="double">Double</option>
-            <option value="groove">Groove</option>
-            <option value="ridge">Ridge</option>
-            <option value="inset">Inset</option>
-            <option value="outset">Outset</option>
-        </select>
+            <!-- Border Style control -->
+            <label for="lineStyle">Border Style:</label>
+            <select id="lineStyle">
+                <option value="none">None</option>
+                <option value="solid">Solid</option>
+                <option value="dashed">Dashed</option>
+                <option value="dotted">Dotted</option>
+                <option value="double">Double</option>
+                <option value="groove">Groove</option>
+                <option value="ridge">Ridge</option>
+                <option value="inset">Inset</option>
+                <option value="outset">Outset</option>
+            </select>
 
-        <!-- Border Color control -->
-        <label for="borderColor">Border Color:</label>
-        <input type="color" id="borderColor" value="#333333">
+            <!-- Border Color control -->
+            <label for="borderColor">Border Color:</label>
+            <input type="color" id="borderColor" value="#333333">
 
-        <!-- Visibility control -->
-        <label for="visibility">Visibility:</label>
-        <select id="visibility">
-            <option value="visible">Visible</option>
-            <option value="hidden">Hidden</option>
-            <option value="collapse">Collapse</option>
-        </select>
+            <!-- Visibility control -->
+            <label for="visibility">Visibility:</label>
+            <select id="visibility">
+                <option value="visible">Visible</option>
+                <option value="hidden">Hidden</option>
+                <option value="collapse">Collapse</option>
+            </select>
 
-        <!-- Overflow control -->
-        <label for="overflow">Overflow:</label>
-        <select id="overflow">
-            <option value="visible">Visible</option>
-            <option value="hidden">Hidden</option>
-            <option value="scroll">Scroll</option>
-            <option value="auto">Auto</option>
-        </select>
+            <!-- Overflow control -->
+            <label for="overflow">Overflow:</label>
+            <select id="overflow">
+                <option value="visible">Visible</option>
+                <option value="hidden">Hidden</option>
+                <option value="scroll">Scroll</option>
+                <option value="auto">Auto</option>
+            </select>
 
-        <!-- Cursor control -->
-        <label for="cursor">Cursor:</label>
-        <select id="cursor">
-            <option value="auto">Auto</option>
-            <option value="pointer">Pointer</option>
-            <option value="move">Move</option>
-            <option value="text">Text</option>
-        </select>
-    </div>
+            <!-- Cursor control -->
+            <label for="cursor">Cursor:</label>
+            <select id="cursor">
+                <option value="auto">Auto</option>
+                <option value="cell">Cell</option>
+                <option value="col-resize">Column-resize</option>
+                <option value="crosshair">Crosshair</option>
+                <option value="pointer">Pointer</option>
+                <option value="move">Move</option>
+                <option value="not-allowed">Not-allowed</option>
+            </select>
+        </div>
 
-    <div>
-        <!-- Display the adjustable element -->
-        <div id="adjustableElement" contenteditable="true">Adjust me!</div>
-        <!-- Display the CSS code -->
-        <div id="cssCode"></div>
+        <div>
+            <!-- Display the adjustable element -->
+            <div id="adjustableElement" contenteditable="true">Adjust me!</div>
+            <!-- Display the CSS code -->
+            <div id="cssCode"></div>
+        </div>
+
+    </main>
+
+    <!-- Begin footer -->
+    <footer>
+
         <!-- Checkbox for sorting alphabetically -->
         <label>
             <input type="checkbox" id="sortCheckbox" onchange="updateCSS()"> Sort Alphabetically
         </label>
+
         <!-- Button to trigger the copyToClipboard function -->
         <button onclick="copyToClipboard()">Copy to Clipboard</button>
-    </div>
+
+    </footer>
+
     <!-- Include the JavaScript file -->
     <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
