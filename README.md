@@ -50,3 +50,9 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 ### Media
 
 ## Other General Project Advice
+
+- During the development of a new feature, adopting an incremental and iterative approach proves advantageous for facilitating smoother development and simplifying the debugging process. Introducing too many features simultaneously increases the complexity too quickly, making it considerably more challenging to trace issues when something doesn't work as expected.
+
+- Creating an ingenious JavaScript function or building an extensive JavaScript array demands a significant investment of time. It becomes crucial to protect them through the establishment of backups. Given the vulnerability of files to accidental overwriting during intense development, it underscores the necessity of maintaining multiple copies as a precautionary measure.
+
+- Employing consistent comments in your code that closely mirror your commit messages is a commendable practice. This alignment facilitates a streamlined development process, allowing you to swiftly locate specific code sections by simply utilizing the CTRL-F search function. The parallel structure of comments and commit messages enhances code readability and aids in maintaining a cohesive and easily navigable codebase.
