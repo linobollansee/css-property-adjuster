@@ -29,6 +29,10 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 ### Features Left to Implement
 
+- The prospect of incorporating supplementary controls presents an exciting opportunity to enhance the functionality of the CSS Property Adjuster, providing additional features to fine-tune the styling of the adjustable element. This potential integration holds the promise of a more versatile and comprehensive toolset, enabling users to exert greater precision and creativity.
+
+- As innovative technology continues to advance, the introduction of new devices with custom resolutions creates new opportunities for the website's responsive design. The emergence of these devices prompts the refinement of media queries, enabling more precise and effective tailoring of content for diverse screen sizes and resolutions.
+
 ## Testing
 
 ### Validator Testing
