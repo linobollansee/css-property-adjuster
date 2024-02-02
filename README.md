@@ -43,6 +43,13 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 ## Deployment
 
+- Deployment to GitHub Pages was completed for the website. The deployment process involves the following steps:
+  - Within the GitHub repository, access the Settings tab.
+  - Choose the Pages tab, set the "main branch" from the dropdown menu in the source section.
+  - After selecting the "main branch", the page will automatically refresh, displaying a detailed ribbon to confirm the successful deployment.
+
+You can access the live link at this location. - [https://linobollansee.github.io/css-property-adjuster/](https://linobollansee.github.io/css-property-adjuster/)
+
 ## Credits
 
 ### Content
