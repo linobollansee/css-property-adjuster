@@ -2,6 +2,8 @@
 
 CSS Property Adjuster is a website and tool to facilitate web styling and design. Its functionality lies in its ability to seamlessly adjust CSS properties with a user-friendly interface, providing an unparalleled experience. The tool's intuitive design allows users to effortlessly manipulate various CSS properties with instantaneous feedback, which not only accelerates website development but also enhances the precision of design decisions.
 
+![Preview](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-preview.png)
+
 ## Features
 
 ### Existing Features
