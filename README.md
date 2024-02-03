@@ -13,21 +13,31 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
   - At the top of the page, there is the header showcasing the name of the website and tool:
   CSS Property Adjuster. The deliberately chosen Arial font ensures simplicity and reliability, minimizing potential confusion while engaging with the input-controls designed to style the adjustable element on the page.
 
+  ![Header](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-header.png)
+
 - The Input-controls
 
   - The main content of the page features input-controls enabling to customize the following CSS properties: width, height, margin, padding, border-radius, box-shadow, background, font-family, color, font-size, text-align, text-shadow, outline, letter-spacing, line-height, opacity, text-decoration, font-weight, border-width, border-style, border-color, visibility, overflow, and cursor.
+
+  ![Input-controls](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-input-controls.png)
 
 - The Adjustable-element
 
   - The adjustable-element undergoes real-time updates and is automatically styled based on the current configuration of the input-controls.
 
+  ![Adjustable-element](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-adjustable-element.png)
+
 - The CSS code
 
   - A designated box contains real-time updated CSS code corresponding to the configurations of the input-controls.
 
+  ![CSS-box](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-css-box.png)
+
 - The footer
   
   - Within the footer, there is a checkbox for alphabetically sorting the CSS code and another button for copying the generated CSS code to the clipboard. Upon clicking the "Copy to Clipboard" button, a JavaScript alert is triggered to confirm the action has occured.
+
+  ![Footer](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-footer.png)
 
 ### Features Left to Implement
 
