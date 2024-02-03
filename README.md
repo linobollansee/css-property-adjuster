@@ -47,6 +47,8 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 - Initially, the oversight of not disabling user selection in CSS resulted in a frustrating user experience, as the input controls were susceptible to malfunctioning and frequently accidently selected instead of being precisely controlled. This issue was promptly addressed and successfully rectified.
 
+![Selection bug](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-selection-bug.png)
+
 - The employment of three-character hexadecimal values in shorthand notation for the input-controls results in HTML validator errors, requiring an extension to six characters. This change has also been implemented.
 
 ![Shorthand bug](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-shorthand-bug.png)
