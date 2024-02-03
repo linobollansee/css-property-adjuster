@@ -53,6 +53,21 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 ### Validator Testing
 
+- HTML
+  - No errors were found with the W3C HTML Validator [https://validator.w3.org/](https://validator.w3.org/)
+
+  ![W3C HTML Validator](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-html-validator.png)
+
+- CSS
+  - No errors were found with the W3C CSS Validator (Jigsaw) [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+
+  ![W3C CSS Validator (Jigsaw)](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-css-validator.png)
+
+- Javascript
+  - No errors were found with the JSHint JavaScript Validator [https://jshint.com/](https://jshint.com/)
+
+  ![JSHint JavaScript Validator](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-js-validator.png)
+
 ### Bugs
 
 - Initially, the oversight of not disabling user selection in CSS resulted in a frustrating user experience, as the input controls were susceptible to malfunctioning and frequently accidently selected instead of being precisely controlled. This issue was promptly addressed and successfully rectified.
