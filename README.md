@@ -64,6 +64,10 @@ You can access the live link at this location. - [https://linobollansee.github.i
 
 ### Media
 
+- Favicons used on this website were generated at [https://favicon.io/favicon-converter/](https://favicon.io/favicon-converter/)
+
+- In this project, a deliberate decision was made to minimize the use of media, considering the primary focus on generating many different CSS styles within an adjustable element through JavaScript. The strategic exclusion of extensive media elements stems from a desire to eliminate potential sources of confusion for users. By eschewing unnecessary media, the project aims to streamline the user experience, ensuring that attention remains squarely on the core objective.
+
 ## Other General Project Advice
 
 - During the development of a new feature, adopting an incremental and iterative approach proves advantageous for facilitating smoother development and simplifying the debugging process. Introducing too many features simultaneously increases the complexity too quickly, making it considerably more challenging to trace issues when something doesn't work as expected.
