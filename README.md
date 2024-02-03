@@ -39,6 +39,12 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 ### Bugs
 
+- Initially, the oversight of not disabling user selection in CSS resulted in a frustrating user experience, as the input controls were susceptible to malfunctioning and frequently accidently selected instead of being precisely controlled. This issue was promptly addressed and successfully rectified.
+
+- The employment of three-character hexadecimal values in shorthand notation for the input-controls results in HTML validator errors, requiring an extension to six characters. This change has also been implemented.
+
+- In the process of developing the JavaScript code for the alphabetical ordering checkbox, an effort was made to introduce a new independent function. Unfortunately, this resulted in various features becoming unresponsive. Subsequently, the new function was removed, and the existing function was updated with if-else code.
+
 ### Unfixed Bugs
 
 ## Deployment
