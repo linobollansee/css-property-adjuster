@@ -49,6 +49,8 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 - The employment of three-character hexadecimal values in shorthand notation for the input-controls results in HTML validator errors, requiring an extension to six characters. This change has also been implemented.
 
+![Shorthand bug](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-shorthand-bug.png)
+
 - In the process of developing the JavaScript code for the alphabetical ordering checkbox, an effort was made to introduce a new independent function. Unfortunately, this resulted in various features becoming unresponsive. Subsequently, the new function was removed, and the existing function was updated with if-else code.
 
 ### Unfixed Bugs
