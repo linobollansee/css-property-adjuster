@@ -47,6 +47,8 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 ### Unfixed Bugs
 
+- Since all known bugs have been resolved, it appears that none remain. In theory, since the behavior of the website could vary across different browsers (even outdated versions), it would still be possible to downgrade to lower functionality coding methods for even higher website compatibility.
+
 ## Deployment
 
 - Deployment to GitHub Pages was completed for the website. The deployment process involves the following steps:
