@@ -47,9 +47,42 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 ## Testing
 
+### Google Lighthouse
+
 Google Lighthouse assessed this project based on its performance, accessibility, adherence to best practices, and SEO.
 
 ![Google Lighthouse](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-lighthouse.png)
+
+### Manual Testing
+
+- [x] Testing Width slider control
+- [x] Testing Height slider control
+- [x] Testing Margin slider control
+- [x] Testing Padding slider control
+- [x] Testing Border Radius slider control
+- [x] Testing Box Shadow slider control
+- [x] Testing Background color picker
+- [x] Testing Font Family dropdown menu
+- [x] Testing Text Color color picker
+- [x] Testing Font size slider control
+- [x] Testing Text Align dropdown menu
+- [x] Testing Text Shadow slider control
+- [x] Testing Outline slider control
+- [x] Testing Outline Color color picker
+- [x] Testing Letter Spacing slider control
+- [x] Testing Line Height slider control
+- [x] Testing Opacity Slider control
+- [x] Testing Text Decoration dropdown menu
+- [x] Testing Font Weight dropdown menu
+- [x] Testing Border Width slider control
+- [x] Testing Border Style dropdown menu
+- [x] Testing Border Color color picker
+- [x] Testing Visibility dropdown menu
+- [x] Testing Overflow dropdown menu
+- [x] Testing Cursor dropdown menu
+
+- [x] Testing Sort Alphabetically checkbox
+- [x] Testing Copy to Clipboard button
 
 ### Validator Testing
 
