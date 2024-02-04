@@ -150,7 +150,7 @@ You can access the live link at this location. - [https://linobollansee.github.i
 
   - ChatGPT contributed to the HTML, CSS, and JavaScript code comments in this project. Code comments are considered completely safe, as they do not pose any risk of disrupting the functioning code. It is advised to give variables and values meaningful names initially, as this is essential for generating high-quality comments from ChatGPT. Comments were further manually edited in an effort to make them as descriptive and clear as possible.
 
-  - ChatGPT contributed to the composition of the README.md file by transforming sections of written text into a third-person perspective, aiming to achieve a refined and professional style. Additionally, incorporated minor details aligned with the subject's theme to enhance overall clarity.
+  - ChatGPT contributed to the composition of the README.md file by transforming sections of written text into a third-person perspective, aiming to achieve a refined and professional style. Additionally, it incorporated minor details aligned with the subject's theme to enhance overall clarity.
 
 ### Media
 
