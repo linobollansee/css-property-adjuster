@@ -136,16 +136,15 @@ You can access the live link at this location. - [https://linobollansee.github.i
 
 - The Generative Pre-trained Transformer (GPT) model from ChatGPT 3.5 contributed to the following:
 
-  - Assisted in building the first version of the input-controls and recommending optimal default values to enhance the interface presentation.
+  - ChatGPT assisted in building the first version of the input-controls and recommending optimal default values to enhance the interface presentation.
 
-  - Contributed to the improvement of the JavaScript functionality responsible for populating the font family dropdown from an array and optimizing the event listeners. In order to get the best results, many specially-edited versions of the source code were inputted to ChatGPT, thereby increasing the chances of obtaining valuable responses. From the possible solutions, arrow functions were determined to be the best choice, aligning with modern coding practices. 
+  - ChatGPT contributed to the improvement of the JavaScript functionality responsible for populating the font family dropdown from an array and optimizing the event listeners. In order to get the best results, many specially-edited versions of the source code were inputted to ChatGPT, thereby increasing the chances of obtaining valuable responses. From the possible solutions, arrow functions were determined to be the best choice, aligning with modern coding practices. 
   
-  IMPORTANT: Mentor approval was sought to ensure that the code syntax used in this project was permissible. As a precautionary measure, additional comments were incorporated into the source code to demonstrate adequate comprehension.
+  - IMPORTANT: Mentor approval was sought to ensure that the code syntax used in this project was permissible. As a precautionary measure, additional comments were incorporated into the source code to demonstrate adequate comprehension.
 
-  - Contributed to the HTML, CSS, and JavaScript code comments in this project. Code comments are considered completely safe, as they do not pose any risk of disrupting the functioning code. It is advised to give variables and values meaningful names initially, as this is essential for generating high-quality comments from ChatGPT.
-  Comments were further manually edited in an effort to make them as descriptive and clear as possible.
+  - ChatGPT contributed to the HTML, CSS, and JavaScript code comments in this project. Code comments are considered completely safe, as they do not pose any risk of disrupting the functioning code. It is advised to give variables and values meaningful names initially, as this is essential for generating high-quality comments from ChatGPT. Comments were further manually edited in an effort to make them as descriptive and clear as possible.
 
-  - Contributed to the composition of the README.md file by transforming sections of written text into a third-person perspective, aiming to achieve a refined and professional style. Additionally, incorporated minor details aligned with the subject's theme to enhance overall clarity.
+  - ChatGPT contributed to the composition of the README.md file by transforming sections of written text into a third-person perspective, aiming to achieve a refined and professional style. Additionally, incorporated minor details aligned with the subject's theme to enhance overall clarity.
 
 ### Media
 
