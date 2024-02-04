@@ -115,7 +115,7 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 - Extensive font dropdown menus could encounter reliability issues due to factors such as fonts being unavailable on the system, the necessity for excessively long @import statements in CSS, etc. As a result, a decision was reached to trim down the font array and prioritize commonly used fonts.
 
-- As the bolder and lighter options in the Font Weight dropdown had no noticeable effect on the font, these redundant features were removed.
+- As the bolder and lighter options in the Font Weight dropdown had no noticeable effect on the font when compared with normal and bold, the redundant bolder and lighter features were removed.
 
 ### Unfixed Bugs
 
