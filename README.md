@@ -55,34 +55,34 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 ### Manual Testing
 
-- [x] Testing Width slider control
-- [x] Testing Height slider control
-- [x] Testing Margin slider control
-- [x] Testing Padding slider control
-- [x] Testing Border Radius slider control
-- [x] Testing Box Shadow slider control
-- [x] Testing Background Color color picker
-- [x] Testing Font Family dropdown menu
-- [x] Testing Text Color color picker
-- [x] Testing Font size slider control
-- [x] Testing Text Align dropdown menu
-- [x] Testing Text Shadow slider control
-- [x] Testing Outline slider control
-- [x] Testing Outline Color color picker
-- [x] Testing Letter Spacing slider control
-- [x] Testing Line Height slider control
-- [x] Testing Opacity Slider control
-- [x] Testing Text Decoration dropdown menu
-- [x] Testing Font Weight dropdown menu
-- [x] Testing Border Width slider control
-- [x] Testing Border Style dropdown menu
-- [x] Testing Border Color color picker
-- [x] Testing Visibility dropdown menu
-- [x] Testing Overflow dropdown menu
-- [x] Testing Cursor dropdown menu
+- [x] Testing Width (slider control)
+- [x] Testing Height (slider control)
+- [x] Testing Margin (slider control)
+- [x] Testing Padding (slider control)
+- [x] Testing Border Radius (slider control)
+- [x] Testing Box Shadow (slider control)
+- [x] Testing Background Color (color picker)
+- [x] Testing Font Family (dropdown menu)
+- [x] Testing Text Color (color picker)
+- [x] Testing Font Size (slider control)
+- [x] Testing Text Align (dropdown menu)
+- [x] Testing Text Shadow (slider control)
+- [x] Testing Outline (slider control)
+- [x] Testing Outline Color (color picker)
+- [x] Testing Letter Spacing (slider control)
+- [x] Testing Line Height (slider control)
+- [x] Testing Opacity (slider control)
+- [x] Testing Text Decoration (dropdown menu)
+- [x] Testing Font Weight (dropdown menu)
+- [x] Testing Border Width (slider control)
+- [x] Testing Border Style (dropdown menu)
+- [x] Testing Border Color (color picker)
+- [x] Testing Visibility (dropdown menu)
+- [x] Testing Overflow (dropdown menu)
+- [x] Testing Cursor (dropdown menu)
 
-- [x] Testing Sort Alphabetically checkbox
-- [x] Testing Copy to Clipboard button
+- [x] Testing Sort Alphabetically (checkbox)
+- [x] Testing Copy to Clipboard (button)
 
 ### Validator Testing
 
@@ -115,7 +115,9 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 - Extensive font dropdown menus could encounter reliability issues due to factors such as fonts being unavailable on the system, the necessity for excessively long @import statements in CSS, etc. As a result, a decision was reached to trim down the font array and prioritize commonly used fonts.
 
-- As the bolder and lighter options in the Font Weight dropdown had no noticeable effect on the font when compared with normal and bold, the redundant bolder and lighter features were removed.
+- As the bolder and lighter options in the Font Weight dropdown menu had no noticeable effect on the font when compared with normal and bold, the redundant bolder and lighter features were removed.
+
+This compilation of addressed bugs is not exhaustive, as documenting them all would be very impractical.
 
 ### Unfixed Bugs
 
