@@ -113,6 +113,8 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 - In the process of developing the JavaScript code for the alphabetical ordering checkbox, an effort was made to introduce a new independent function. Unfortunately, this resulted in various features becoming unresponsive. Subsequently, the new function was removed, and the existing function was updated with if-else code.
 
+- Extensive font dropdown menus could encounter reliability issues due to factors such as fonts being unavailable on the system, the necessity for excessively long @import statements in CSS, etc. As a result, a decision was reached to trim down the font array and prioritize commonly used fonts.
+
 ### Unfixed Bugs
 
 - Since all known bugs have been resolved, it appears that none remain. In theory, since the behavior of the website could vary across different browsers (even outdated versions), it would still be possible to downgrade to lower functionality coding methods for even higher website compatibility.
