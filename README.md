@@ -115,6 +115,8 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 - Extensive font dropdown menus could encounter reliability issues due to factors such as fonts being unavailable on the system, the necessity for excessively long @import statements in CSS, etc. As a result, a decision was reached to trim down the font array and prioritize commonly used fonts.
 
+- As the bolder and lighter options in the Font Weight dropdown had no noticeable effect on the font, these redundant features were removed.
+
 ### Unfixed Bugs
 
 - Since all known bugs have been resolved, it appears that none remain. In theory, since the behavior of the website could vary across different browsers (even outdated versions), it would still be possible to downgrade to lower functionality coding methods for even higher website compatibility.
