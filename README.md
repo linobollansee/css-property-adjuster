@@ -61,7 +61,7 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 - [x] Testing Padding slider control
 - [x] Testing Border Radius slider control
 - [x] Testing Box Shadow slider control
-- [x] Testing Background color picker
+- [x] Testing Background Color color picker
 - [x] Testing Font Family dropdown menu
 - [x] Testing Text Color color picker
 - [x] Testing Font size slider control
