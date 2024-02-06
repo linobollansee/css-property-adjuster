@@ -156,6 +156,8 @@ You can access the live link at this location. - [https://linobollansee.github.i
 
 - Favicons used on this website were generated at [https://favicon.io/favicon-converter/](https://favicon.io/favicon-converter/)
 
+- The website preview across various devices showcased at the beginning of the README.md file was created using: [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive)
+
 - In this project, a deliberate decision was made to minimize the use of media, considering the primary focus on generating many different CSS styles within an adjustable element through JavaScript. The strategic exclusion of extensive media elements stems from a desire to eliminate potential sources of confusion for users. By eschewing unnecessary media, the project aims to streamline the user experience, ensuring that attention remains squarely on the core objective.
 
 ## Other General Project Advice
