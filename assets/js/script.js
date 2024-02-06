@@ -206,6 +206,86 @@ as a valid hexadecimal color code.
 */
 const getRandomColor = () => '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
 
+function randomizeInputs() {
+    // Set random width between 50 and 500 pixels (increments of 1)
+    document.getElementById('width').value = Math.floor(Math.random() * 451) + 50;
+
+    // Set random height between 50 and 300 pixels (increments of 1)
+    document.getElementById('height').value = Math.floor(Math.random() * 251) + 50;
+
+    // Set random margin between 0 and 50 pixels (increments of 1)
+    document.getElementById('margin').value = Math.floor(Math.random() * 51);
+
+    // Set random padding between 0 and 30 pixels (increments of 1)
+    document.getElementById('padding').value = Math.floor(Math.random() * 31);
+
+    // Set random border radius between 0 and 50 pixels (increments of 1)
+    document.getElementById('borderRadius').value = Math.floor(Math.random() * 51);
+
+    // Set random box shadow between 0 and 10 pixels (increments of 1)
+    document.getElementById('boxShadow').value = Math.floor(Math.random() * 11);
+
+    // Set random background color (no fixed increments)
+    document.getElementById('background').value = getRandomColor();
+
+    // Set random font family from available options (increments of 1)
+    document.getElementById('fontFamily').selectedIndex = Math.floor(Math.random() * fontOptions.length);
+
+    // Set random text color (no fixed increments)
+    document.getElementById('color').value = getRandomColor();
+
+    // Set random font size between 10 and 50 pixels (increments of 1)
+    document.getElementById('fontSize').value = Math.floor(Math.random() * 41) + 10;
+
+    // Set random text alignment (left, center, right) (no fixed increments)
+    document.getElementById('textAlign').value = ['left', 'center', 'right'][Math.floor(Math.random() * 3)];
+
+    // Set random text shadow between 0 and 5 pixels (increments of 0.1)
+    document.getElementById('textShadow').value = (Math.floor(Math.random() * 51) / 10);
+
+    // Set random outline width between 0 and 5 pixels (increments of 1)
+    document.getElementById('outline').value = Math.floor(Math.random() * 6);
+
+    // Set random outline color (no fixed increments)
+    document.getElementById('outlineColor').value = getRandomColor();
+
+    // Set random letter spacing between -2 and 5 pixels (increments of 1)
+    document.getElementById('letterSpacing').value = Math.floor(Math.random() * 8) - 2;
+
+    // Set random line height between 1 and 2.0 (increments of 0.1)
+    document.getElementById('lineHeight').value = Math.floor(Math.random() * 11) / 10 + 1;
+
+    // Set random opacity between 0.1 and 1.0 (increments of 0.1)
+    document.getElementById('opacity').value = (Math.floor(Math.random() * 10) + 1) / 10;
+
+    // Set random text decoration (none, underline, overline, line-through) (no fixed increments)
+    document.getElementById('textDecoration').value = ['none', 'underline', 'overline', 'line-through'][Math.floor(Math.random() * 4)];
+
+    // Set random font weight (normal, bold) (no fixed increments)
+    document.getElementById('fontWeight').value = ['normal', 'bold'][Math.floor(Math.random() * 2)];
+
+    // Set random line width between 0 and 10 pixels (increments of 1)
+    document.getElementById('lineWidth').value = Math.floor(Math.random() * 11);
+
+    // Set random line style (solid, dashed, dotted, double) (no fixed increments)
+    document.getElementById('lineStyle').value = ['solid', 'dashed', 'dotted', 'double'][Math.floor(Math.random() * 4)];
+
+    // Set random border color (no fixed increments)
+    document.getElementById('borderColor').value = getRandomColor();
+
+    // Set visibility to 'visible' (no fixed increments)
+    document.getElementById('visibility').value = 'visible';
+
+    // Set random overflow (visible, hidden, scroll) (no fixed increments)
+    document.getElementById('overflow').value = ['visible', 'hidden', 'scroll'][Math.floor(Math.random() * 3)];
+
+    // Set random cursor style (no fixed increments)
+    document.getElementById('cursor').value = ['auto', 'cell', 'col-resize', 'crosshair', 'pointer', 'move', 'not-allowed'][Math.floor(Math.random() * 7)];
+
+    // Trigger the updateCSS function to apply the random values
+    updateCSS();
+}
+
 // Add event listeners to input controls for real-time updates
 sliders.forEach(slider => {
     slider.addEventListener('input', updateCSS);
