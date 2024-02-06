@@ -195,6 +195,17 @@ function updateCSS() {
 // List of input controls to track for changes
 const sliders = document.querySelectorAll('input[type="range"], input[type="color"], select');
 
+/* This arrow function employs the Math.random() function to generate a
+pseudorandom floating-point number. It then scales this value by multiplying it
+with 16777215, which covers the complete range of possible hexadecimal color
+values (0x000000 to 0xFFFFFF). The resultant number is converted to a
+hexadecimal string representation using the .toString(16) method. If necessary,
+leading zeros are added to ensure the string consists of six hexadecimal
+digits. Finally, the '#' character is prepended to signify the resultant string
+as a valid hexadecimal color code.
+*/
+const getRandomColor = () => '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+
 // Add event listeners to input controls for real-time updates
 sliders.forEach(slider => {
     slider.addEventListener('input', updateCSS);
