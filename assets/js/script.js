@@ -286,6 +286,10 @@ function randomizeInputs() {
     updateCSS();
 }
 
+// Add event listener to the randomize button
+const randomizeButton = document.getElementById('randomizeButton');
+randomizeButton.addEventListener('click', randomizeInputs);
+
 // Add event listeners to input controls for real-time updates
 sliders.forEach(slider => {
     slider.addEventListener('input', updateCSS);
