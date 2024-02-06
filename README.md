@@ -117,6 +117,12 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 - As the bolder and lighter options in the Font Weight dropdown menu had no noticeable effect on the font when compared with normal and bold, the redundant bolder and lighter features were removed.
 
+- In JavaScript, it's crucial to account for the fact that the Math.random()
+function produces values from 0 up to, but not including, 1. Thus, when using
+the Math.floor() function to round down, it's easy to overlook adding 1 to
+encompass the upper boundary in your desired range, despite being aware of this
+requirement.
+
 This compilation of addressed bugs is not exhaustive, as documenting them all would be very impractical.
 
 ### Unfixed Bugs
