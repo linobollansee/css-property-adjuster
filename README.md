@@ -178,6 +178,9 @@ You can access the live link at this location. - [https://linobollansee.github.i
 
   - ChatGPT contributed to the composition of the README.md file by transforming sections of written text into a third-person perspective, aiming to achieve a refined and professional style. Additionally, it incorporated minor details aligned with the subject's theme to enhance overall clarity.
 
+  - As the author's proficiency in JavaScript programming improved, he exceeded ChatGPT's accuracy in updating or implementing new Javascript functions.ChatGPT's capability is constrained by a tokenization threshold, hindering its
+  effectiveness in handling lengthy scripts. When confronted with scripts surpassing its limits, the model consistently generates incomplete and inaccurate outputs.
+
 ### Media
 
 - Favicons used on this website were generated at [https://favicon.io/favicon-converter/](https://favicon.io/favicon-converter/)
