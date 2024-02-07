@@ -125,7 +125,15 @@ requirement.
 
 - In the event of downtime for cloud-based integrated development environments, there's an opportunity to make edits and commit code directly on the GitHub website. This method was utilized to initialize a new repository during a period when Codeanywhere was inaccessible.
 
-This compilation of addressed bugs is not exhaustive, as documenting them all would be very impractical.
+- Initially, the randomization button allowed users to make the adjustable
+element invisible by setting its opacity to 0 or its visibility to hidden or
+collapse. Now, the randomization button limits the opacity to a minimum of 0.1,
+ensuring that the adjustable element remains visible for practical usability.
+However, within the input controls, users can still set opacity to 0 or
+visibility to hidden or collapse for educational purposes. When an adjustment to
+make the adjustable-element invisible is done directly, the user has a better awareness of what just occured.
+
+This compilation of addressed bugs and issues is not exhaustive, as documenting them all would be very impractical.
 
 ### Unfixed Bugs
 
