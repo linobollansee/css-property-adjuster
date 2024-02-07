@@ -18,8 +18,9 @@ function.
 Special thanks to Mentor Dick Vlaanderen for suggesting the utilization of font
 arrays in JavaScript instead of listing them as options directly in the HTML page.
 Additionally, the mentor played a crucial role in brainstorming new feature
-ideas, all of which were successfully implemented by the author. The last feature
-to be added in JavaScript was an alphabetical sorting checkbox. 
+ideas, all of which were successfully implemented by the author. The last features
+to be added in JavaScript were a copy to clipboard button, an alphabetical
+sorting checkbox, and a randomization button for the input-controls. 
 */
 
 // List of font options
