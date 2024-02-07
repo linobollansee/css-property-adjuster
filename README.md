@@ -166,7 +166,7 @@ You can access the live link at this location. - [https://linobollansee.github.i
 
 - Codeanywhere's online integrated development environment (IDE) was utilized for indentation formatting, composing commit messages, and pushing code and files to the Github repository. 
 
-- The Generative Pre-trained Transformer (GPT) model from ChatGPT 3.5 contributed to the following:
+- [ChatGPT-3.5](https://chat.openai.com/)
 
   - ChatGPT assisted in building the first version of the input-controls and recommending optimal default values to enhance the interface presentation.
 
