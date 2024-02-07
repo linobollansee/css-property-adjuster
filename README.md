@@ -158,7 +158,11 @@ You can access the live link at this location. - [https://linobollansee.github.i
 - Code Institute: Student Support: Mentor Guidance
   - The mentor guidance from the Code Institute helped in generating Javascript feature ideas for this project. This encompasses project choice, font arrays, CSS sorted alphabetically, and more.
 
-- NotePad++ emerged as an exceptionally efficient tool in this project, offering precision and speed. Its user-friendly interface and lightweight design allowed to seamlessly navigate and manipulate project code, enhancing overall productivity.
+- [W3 Schools](https://www.w3schools.com/)
+  - W3Schools encompasses all the HTML, CSS, and JavaScript syntax necessary for a project. Visiting the site enabled exploration of what was achievable and facilitated the construction of functions not covered in JavaScript essentials.
+
+- [NotePad++](https://notepad-plus-plus.org/)
+  - NotePad++ emerged as an exceptionally efficient tool in this project, offering precision and speed. Its user-friendly interface and lightweight design allowed to seamlessly navigate and manipulate project code, enhancing overall productivity.
 
 - Codeanywhere's online integrated development environment (IDE) was utilized for indentation formatting, composing commit messages, and pushing code and files to the Github repository. 
 
