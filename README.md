@@ -101,7 +101,7 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
   ![JSHint JavaScript Validator](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-js-validator.png)
 
-### Bugs
+### Bugs and Issues
 
 - Initially, the oversight of not disabling user selection in CSS resulted in a frustrating user experience, as the input controls were susceptible to malfunctioning and frequently accidently selected instead of being precisely controlled. This issue was promptly addressed and successfully rectified.
 
@@ -122,6 +122,8 @@ function produces values from 0 up to, but not including, 1. Thus, when using
 the Math.floor() function to round down, it's easy to overlook adding 1 to
 encompass the upper boundary in your desired range, despite being aware of this
 requirement.
+
+- In the event of downtime for cloud-based integrated development environments, there's an opportunity to make edits and commit code directly on the GitHub website. This method was utilized to initialize a new repository during a period when Codeanywhere was inaccessible.
 
 This compilation of addressed bugs is not exhaustive, as documenting them all would be very impractical.
 
