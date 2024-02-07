@@ -164,7 +164,8 @@ You can access the live link at this location. - [https://linobollansee.github.i
 - [NotePad++](https://notepad-plus-plus.org/)
   - NotePad++ emerged as an exceptionally efficient tool in this project, offering precision and speed. Its user-friendly interface and lightweight design allowed to seamlessly navigate and manipulate project code, enhancing overall productivity.
 
-- Codeanywhere's online integrated development environment (IDE) was utilized for indentation formatting, composing commit messages, and pushing code and files to the Github repository. 
+- [Codeanywhere](https://www.codeanywhere.com/)
+  - Codeanywhere's online integrated development environment (IDE) was utilized for indentation formatting, composing commit messages, and pushing code and files to the Github repository.
 
 - [ChatGPT-3.5](https://chat.openai.com/)
 
