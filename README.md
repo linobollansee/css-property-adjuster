@@ -203,6 +203,12 @@ You can access the live link at this location. - [https://linobollansee.github.i
   effectiveness in handling lengthy scripts. When confronted with scripts
   surpassing its limits, the model consistently generates incomplete and inaccurate outputs.
 
+- [Balsamiq](https://balsamiq.com/)
+
+  - A proof-of-concept of the project was created using the Balsamiq wireframing tool.
+
+  ![Wireframes](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-wireframes.png)
+
 ### Media
 
 - Favicons used on this website were generated at [https://favicon.io/favicon-converter/](https://favicon.io/favicon-converter/)
