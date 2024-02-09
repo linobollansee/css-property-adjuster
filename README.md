@@ -173,6 +173,11 @@ You can access the live link at this location. - [https://linobollansee.github.i
   their projects and resources, significantly enhancing the overall learning
   environment.
 
+- [Code Institute: Full Sample README]
+  - The starting README.md template was taken from the Code Institute's
+  Portfolio Project Scope page. It was subsequently expanded to align with this
+  particular project.
+  
 - [W3 Schools](https://www.w3schools.com/)
   - W3Schools encompasses all the HTML, CSS, and JavaScript syntax necessary for a project. Visiting the site enabled exploration of what was achievable and facilitated the construction of functions not covered in JavaScript essentials.
 
