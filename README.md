@@ -15,25 +15,25 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
   ![Header](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-header.png)
 
-- The Input-controls
+- The Input-Controls
 
   - The main content of the page features input-controls enabling to customize the following CSS properties: width, height, margin, padding, border-radius, box-shadow, background, font-family, color, font-size, text-align, text-shadow, outline, letter-spacing, line-height, opacity, text-decoration, font-weight, border-width, border-style, border-color, visibility, overflow, and cursor. There is also a randomization button to configure them automatically.
 
   ![Input-controls](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-input-controls.png)
 
-- The Adjustable-element
+- The Adjustable-Element
 
   - The adjustable-element undergoes real-time updates and is automatically styled based on the current configuration of the input-controls.
 
   ![Adjustable-element](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-adjustable-element.png)
 
-- The CSS code
+- The CSS Code
 
   - A designated box contains real-time updated CSS code corresponding to the configurations of the input-controls.
 
   ![CSS-box](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-css-box.png)
 
-- The footer
+- The Footer
   
   - Within the footer, there is a checkbox for alphabetically sorting the CSS code and another button for copying the generated CSS code to the clipboard. Upon clicking the "Copy to Clipboard" button, a JavaScript alert is triggered to confirm the action has occured.
 
