@@ -47,11 +47,17 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 ## Testing
 
-### Google Lighthouse
+### Google Lighthouse Testing
 
 Google Lighthouse assessed this project based on its performance, accessibility, adherence to best practices, and SEO.
 
 ![Google Lighthouse](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-lighthouse.png)
+
+### Google DevTools Testing
+
+Google DevTools were employed to assess the responsive web design of the site. Numerous different resolutions were chosen, and upon modifying the resolution, the media queries' rules were promptly applied.
+
+![Google DevTools](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-devtools.png)
 
 ### Manual Testing
 
