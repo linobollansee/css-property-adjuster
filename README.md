@@ -202,11 +202,7 @@ You can access the live link at this location. - [https://linobollansee.github.i
   refined and professional style. Additionally, it incorporated minor details
   aligned with the subject's theme to enhance overall clarity.
 
-  - As the author's proficiency in JavaScript programming improved, he exceeded
-  ChatGPT's accuracy in updating or implementing new Javascript functions.
-  ChatGPT's capability is constrained by a tokenization threshold, hindering its
-  effectiveness in handling lengthy scripts. When confronted with scripts
-  surpassing its limits, the model consistently generates incomplete and inaccurate outputs.
+  - As the author's JavaScript programming skills advanced, they surpassed ChatGPT's accuracy in updating or introducing new JavaScript features. The author showcased their capability by independently creating features such as the copy to clipboard function, alphabetical sorting checkbox, and randomization button through diligent research and practice. ChatGPT's performance is limited by a tokenization threshold, which hampers its ability to effectively process extensive scripts. When faced with scripts exceeding its limits, the model consistently produces incomplete and erroneous results.
 
 - [Balsamiq](https://balsamiq.com/)
 
