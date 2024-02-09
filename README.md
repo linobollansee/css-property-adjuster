@@ -217,7 +217,7 @@ You can access the live link at this location. - [https://linobollansee.github.i
 
 - Creating an ingenious JavaScript function or building an extensive JavaScript array demands a significant investment of time. It becomes crucial to protect them through the establishment of backups. Given the vulnerability of files to accidental overwriting during intense development, it underscores the necessity of maintaining multiple copies as a precautionary measure.
 
-- Employing consistent comments in your code that closely mirror your commit messages is a commendable practice. This alignment facilitates a streamlined development process, allowing you to swiftly locate specific code sections by simply utilizing the CTRL-F search function. The parallel structure of comments and commit messages enhances code readability and aids in maintaining a cohesive and easily navigable codebase.
+- Utilizing consistent comments in one's code that closely mirror their commit messages is considered a commendable practice. This alignment facilitates a streamlined development process, enabling individuals to swiftly locate specific code sections by simply utilizing the CTRL-F search function. The parallel structure of comments and commit messages enhances code readability and assists in maintaining a cohesive and easily navigable codebase.
 
 - Incorporating randomization buttons into projects is strongly recommended, as
 they enable testing in unconventional value combinations unlikely to occur
