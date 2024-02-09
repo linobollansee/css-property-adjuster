@@ -55,6 +55,11 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 
 ### Manual Testing
 
+#### Live Link
+- [x] Testing Live Link [https://linobollansee.github.io/css-property-adjuster/](https://linobollansee.github.io/css-property-adjuster/)
+
+#### Input-controls
+
 - [x] Testing Width (using the slider control, verifying the adjustable-element and CSS code)
 - [x] Testing Height (using the slider control, verifying the adjustable-element and CSS code)
 - [x] Testing Margin (using the slider control, verifying the adjustable-element and CSS code)
@@ -80,6 +85,9 @@ Google Lighthouse assessed this project based on its performance, accessibility,
 - [x] Testing Visibility (using the dropdown menu, verifying the adjustable-element and CSS code)
 - [x] Testing Overflow (using the dropdown menu, verifying the adjustable-element and CSS code)
 - [x] Testing Cursor (using the dropdown menu, verifying the adjustable-element and CSS code)
+
+#### Special-features
+
 - [x] Testing Randomize-input-controls (using the button, verifying the adjustable-element and CSS code)
 - [x] Testing Sort Alphabetically (using the checkbox, verifying the CSS code ordering)
 - [x] Testing Copy to Clipboard (using the button, verifying the Clipboard content and JavaScript alert)
