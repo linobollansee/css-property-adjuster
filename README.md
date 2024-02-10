@@ -53,6 +53,12 @@ A Python 3 server was launched within CodeAnywhere's integrated development envi
 
 ![Codeanywhere Python 3 Server](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-python3-server.png)
 
+### GitHub Code Downloading (Offline Testing)
+
+To ensure additional file backups and conduct offline testing, the repository was downloaded as a ZIP archive from GitHub, then extracted and accessed via a local browser.
+
+![GitHub Zip Download](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-zip-download.png)
+
 ### Google Lighthouse Testing
 
 Google Lighthouse assessed this project based on its performance, accessibility, adherence to best practices, and SEO.
