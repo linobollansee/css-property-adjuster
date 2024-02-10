@@ -47,6 +47,12 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 ## Testing
 
+### Codeanywhere Python 3 Server Testing
+
+A Python 3 server was launched within CodeAnywhere's integrated development environment (IDE) to regularly evaluate the website's functionality.
+
+![Codeanywhere Python 3 Server](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-python3-server.png)
+
 ### Google Lighthouse Testing
 
 Google Lighthouse assessed this project based on its performance, accessibility, adherence to best practices, and SEO.
@@ -232,9 +238,8 @@ You can access the live link at this location. - [https://linobollansee.github.i
 
 - Utilizing consistent comments in one's code that closely mirror their commit messages is considered a commendable practice. This alignment facilitates a streamlined development process, enabling individuals to swiftly locate specific code sections by simply utilizing the CTRL-F search function. The parallel structure of comments and commit messages enhances code readability and assists in maintaining a cohesive and easily navigable codebase.
 
-- Incorporating randomization buttons into projects is strongly recommended, as
-they enable testing in unconventional value combinations unlikely to occur
-through manual input. Additionally, they can reveal program limitations and
-bugs.
+- Incorporating randomization buttons into projects is strongly recommended, as they enable testing in unconventional value combinations unlikely to occur through manual input. Additionally, they can reveal program limitations and bugs.
 
 - Exploring a diverse range of other projects and initiatives can significantly contribute to ensuring that all facets and intricacies of the current project are thoroughly considered and accounted for.
+
+- Accidental keyboard keystrokes or mouse clicks during work can compromise the integrity of a codebase. If such incidents are suspected, it's advisable to promptly copy and paste the latest commit from the version control system directly over the compromised code. This proactive step ensures that any unintended alterations are rectified, effectively guarding against the introduction of flaws or errors.
