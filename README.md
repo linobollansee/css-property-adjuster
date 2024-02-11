@@ -35,7 +35,7 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 - The Footer
   
-  - Within the footer, there is a checkbox for alphabetically sorting the CSS code and another button for copying the generated CSS code to the clipboard. Upon clicking the "Copy to Clipboard" button, a JavaScript alert is triggered to confirm the action has occured.
+  - Within the footer, there is a checkbox for alphabetically sorting the CSS code and another button for copying the generated CSS code to the clipboard. Upon clicking the "Copy to Clipboard" button, a JavaScript alert is triggered to confirm the action has occurred.
 
   ![Footer](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-footer.png)
 
