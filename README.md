@@ -129,7 +129,7 @@ Google DevTools were employed to assess the responsive web design of the site. N
 
 ### Bugs and Issues
 
-- Initially, the oversight of not disabling user selection in CSS resulted in a frustrating user experience, as the input controls were susceptible to malfunctioning and frequently accidently selected instead of being precisely controlled. This issue was promptly addressed and successfully rectified.
+- Initially, the oversight of not disabling user selection in CSS resulted in a frustrating user experience, as the input controls were susceptible to malfunctioning and frequently accidentally selected instead of being precisely controlled. This issue was promptly addressed and successfully rectified.
 
 ![Selection bug](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-selection-bug.png)
 
