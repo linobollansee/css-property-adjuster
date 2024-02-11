@@ -49,7 +49,7 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
 ### Codeanywhere Python 3 Server Testing
 
-A Python 3 server was launched within CodeAnywhere's integrated development environment (IDE) to regularly evaluate the website's functionality.
+A Python 3 server was launched within Codeanywhere's integrated development environment (IDE) to regularly evaluate the website's functionality online.
 
 ![Codeanywhere Python 3 Server](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-python3-server.png)
 
