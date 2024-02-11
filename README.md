@@ -163,6 +163,8 @@ This compilation of addressed bugs and issues is not exhaustive, as documenting 
 
 ### Unfixed Bugs
 
+- IMPORTANT: The CSS Property Adjuster can be configured to cause text overflow within the adjustable-element. This isn't a bug; rather, it's a deliberate feature that enables users to test the overflow CSS property and its values.
+
 - Since all known bugs have been resolved, it appears that none remain. In theory, since the behavior of the website could vary across different browsers (even outdated versions), it would still be possible to downgrade to lower functionality coding methods for even higher website compatibility.
 
 ## Deployment
