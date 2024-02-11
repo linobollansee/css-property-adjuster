@@ -11,7 +11,7 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 - The Header
 
   - At the top of the page, there is the header showcasing the name of the website and tool:
-  CSS Property Adjuster. The deliberately chosen Arial font ensures simplicity and reliability, minimizing potential confusion while engaging with the input-controls designed to style the adjustable element on the page.
+  CSS Property Adjuster. The deliberately chosen Arial font ensures simplicity and reliability, minimizing potential confusion while engaging with the input-controls designed to style the adjustable element on the page. There are also instructions about how to use the tool.
 
   ![Header](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-header.png)
 
