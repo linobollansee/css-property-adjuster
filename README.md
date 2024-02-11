@@ -21,11 +21,11 @@ CSS Property Adjuster is a website and tool to facilitate web styling and design
 
   ![Input-controls](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-input-controls.png)
 
-- The Adjustable-Element
+- The Adjustable Element
 
-  - The adjustable-element undergoes real-time updates and is automatically styled based on the current configuration of the input-controls.
+  - The adjustable element undergoes real-time updates and is automatically styled based on the current configuration of the input-controls.
 
-  ![Adjustable-element](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-adjustable-element.png)
+  ![Adjustable element](https://linobollansee.github.io/css-property-adjuster/readme/media/css-property-adjuster-adjustable-element.png)
 
 - The CSS Code
 
@@ -78,35 +78,35 @@ Google DevTools were employed to assess the responsive web design of the site. N
 
 #### Input-Controls Testing
 
-- [x] Testing Width (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Height (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Margin (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Padding (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Border Radius (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Box Shadow (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Background Color (using the color picker, verifying the adjustable-element and CSS code)
-- [x] Testing Font Family (using the dropdown menu, verifying the adjustable-element and CSS code)
-- [x] Testing Text Color (using the color picker, verifying the adjustable-element and CSS code)
-- [x] Testing Font Size (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Text Align (using the dropdown menu, verifying the adjustable-element and CSS code)
-- [x] Testing Text Shadow (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Outline (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Outline Color (using the color picker, verifying the adjustable-element and CSS code)
-- [x] Testing Letter Spacing (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Line Height (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Opacity (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Text Decoration (using the dropdown menu, verifying the adjustable-element and CSS code)
-- [x] Testing Font Weight (using the dropdown menu, verifying the adjustable-element and CSS code)
-- [x] Testing Border Width (using the slider control, verifying the adjustable-element and CSS code)
-- [x] Testing Border Style (using the dropdown menu, verifying the adjustable-element and CSS code)
-- [x] Testing Border Color (using the color picker, verifying the adjustable-element and CSS code)
-- [x] Testing Visibility (using the dropdown menu, verifying the adjustable-element and CSS code)
-- [x] Testing Overflow (using the dropdown menu, verifying the adjustable-element and CSS code)
-- [x] Testing Cursor (using the dropdown menu, verifying the adjustable-element and CSS code)
+- [x] Testing Width (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Height (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Margin (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Padding (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Border Radius (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Box Shadow (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Background Color (using the color picker, verifying the adjustable element and CSS code)
+- [x] Testing Font Family (using the dropdown menu, verifying the adjustable element and CSS code)
+- [x] Testing Text Color (using the color picker, verifying the adjustable element and CSS code)
+- [x] Testing Font Size (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Text Align (using the dropdown menu, verifying the adjustable element and CSS code)
+- [x] Testing Text Shadow (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Outline (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Outline Color (using the color picker, verifying the adjustable element and CSS code)
+- [x] Testing Letter Spacing (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Line Height (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Opacity (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Text Decoration (using the dropdown menu, verifying the adjustable element and CSS code)
+- [x] Testing Font Weight (using the dropdown menu, verifying the adjustable element and CSS code)
+- [x] Testing Border Width (using the slider control, verifying the adjustable element and CSS code)
+- [x] Testing Border Style (using the dropdown menu, verifying the adjustable element and CSS code)
+- [x] Testing Border Color (using the color picker, verifying the adjustable element and CSS code)
+- [x] Testing Visibility (using the dropdown menu, verifying the adjustable element and CSS code)
+- [x] Testing Overflow (using the dropdown menu, verifying the adjustable element and CSS code)
+- [x] Testing Cursor (using the dropdown menu, verifying the adjustable element and CSS code)
 
 #### Special-Features Testing
 
-- [x] Testing Randomize-input-controls (using the button, verifying the adjustable-element and CSS code)
+- [x] Testing Randomize-input-controls (using the button, verifying the adjustable element and CSS code)
 - [x] Testing Sort Alphabetically (using the checkbox, verifying the CSS code ordering)
 - [x] Testing Copy to Clipboard (using the button, verifying the Clipboard content and JavaScript alert)
 
@@ -157,13 +157,13 @@ collapse. Now, the randomization button limits the opacity to a minimum of 0.1,
 ensuring that the adjustable element remains visible for practical usability.
 However, within the input controls, users can still set opacity to 0 or
 visibility to hidden or collapse for educational purposes. When an adjustment to
-make the adjustable-element invisible is done directly, the user has a better awareness of what just occurred.
+make the adjustable element invisible is done directly, the user has a better awareness of what just occurred.
 
 This compilation of addressed bugs and issues is not exhaustive, as documenting them all would be very impractical.
 
 ### Unfixed Bugs
 
-- IMPORTANT: The CSS Property Adjuster can be configured to cause text overflow within the adjustable-element. This isn't a bug; rather, it's a deliberate feature that enables users to test the overflow CSS property and its values.
+- IMPORTANT: The CSS Property Adjuster can be configured to cause text overflow within the adjustable element. This isn't a bug; rather, it's a deliberate feature that enables users to test the overflow CSS property and its values.
 
 - Since all known bugs have been resolved, it appears that none remain. In theory, since the behavior of the website could vary across different browsers (even outdated versions), it would still be possible to downgrade to lower functionality coding methods for even higher website compatibility.
 
